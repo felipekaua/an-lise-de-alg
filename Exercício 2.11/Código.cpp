@@ -21,7 +21,7 @@ void acharEntrada(int entrada, int i, int j, int z, int y){
 
 int main(){
     int i=-1, j=0, y=0, z=0;
-    int entrada, linha=0, coluna=0;
+    int entrada;
     printf("Insira um numero: ");
     scanf("%d", &entrada);
     acharEntrada(entrada, i, j, z, y);
