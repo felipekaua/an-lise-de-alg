@@ -35,7 +35,7 @@ int main(){
         }
     } 
     int newArray[newSize-1];
-    printf("\nArray com numeros nao nulos: \n");
+    printf("\nArray sem numeros nulos: \n");
     int j=0;
     for(int i=0; i<x; i++){  
         if(arrayExemplo[i]!=0){
